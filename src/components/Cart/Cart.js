@@ -1,11 +1,9 @@
 import React from 'react';
 import './Cart.css'
-const Cart = (props) => {
+const Cart = ({cart}) => {
     return (
-        <div>
-            <div className='cart'>
-            {/* <button onClick={clearAll}>clear all</button> */}
-        </div>
+        <div className='cart'>
+            
         </div>
     );
 };

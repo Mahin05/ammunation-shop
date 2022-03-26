@@ -3,6 +3,10 @@
     top: 0;
     padding: 30px 20px;
 }
+.btn-set{
+    position: sticky;
+    top: 0;
+}
 /* @media screen and (max-width:414px){
 
     .cart{
