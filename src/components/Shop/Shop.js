@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
-import './Shop.css'
-import '../Cart/Cart.css'
+import './Shop.css';
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
@@ -33,7 +31,6 @@ const Shop = () => {
         .then(data=>setProducts(data))
     },[]);
     return (
-        
         <div className='shop-container'>
             <div className="products-container">
                 {
@@ -45,8 +42,9 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-            <h1>Chosen Items</h1>
                 <div className='cart'>
+                <p>Choose 4 Products!!</p>
+                <h3>Chosen Products :</h3>
                 {
                     cart.map((item,id)=>(
                         <p key={id}
@@ -54,12 +52,12 @@ const Shop = () => {
                         </p>
                     ))
                 }
-                </div>
-                <button onClick={clear}>clear all</button><br />
-                <button onClick={choseOne}>Chose One</button><br />
+                <button className='btn-style' onClick={clear}>clear all</button><br />
+                <button className='btn-style2' onClick={choseOne}>Chose One</button><br />
                 {
                     <p>Chosen Item Name: {chosen.name}</p>
                 }
+                </div>
             </div>
         </div>
     );
