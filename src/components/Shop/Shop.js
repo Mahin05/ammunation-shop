@@ -11,9 +11,9 @@ const Shop = () => {
     if(newCart.length<=4){
         setCart(newCart)
     }
-    console.log(newCart);
+    // console.log(newCart);
     }
-    const clear = (product)=>{
+    const clear = ()=>{
         const emptyCart = [];
         setCart(emptyCart);
     }
