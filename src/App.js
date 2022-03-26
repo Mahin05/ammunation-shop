@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Shop from './components/Shop/Shop';
 import QandA from './components/QandA/QandA';

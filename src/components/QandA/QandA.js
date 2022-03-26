@@ -6,7 +6,7 @@ const QandA = () => {
         <div className='main-q-n-a-style'>
             <div className='q-n-a-style'>
             <h3>Question-1: How react works?</h3>
-            <p>Answer: React হলো javascript library যেটি declarative কোডের মাধ্যমে user interface তৈরী করে। Declrarative code দিয়ে component তৈরী করা হয়। Components হলো REUSABLE UI যেটি app কে বিভিন্ন ব্লকে বিভক্ত করে। Component prop নামক ডেটা নিয়ে সেটিকে UI তে represent করে। Props এর মাধ্যমে components একে অপরের মধ্যে ডেটা স্থানান্তর করে complex type ui তৈরী করতে পারে। SPA(Single Page Application) তৈরী তে React ব্যবহার করা হয়। মূলত জটিল কাজের কিন্তু সহজভাবে একটি website এর UI তৈরী তে React দারুন ভূমিকা পালন করে।</p>
+            <p>Answer: <br /> React হলো javascript library যেটা declarative কোডের মাধ্যমে user interface তৈরী করে। Declrarative code দিয়ে component তৈরী করা হয়। Components হলো REUSABLE UI যেটা app কে বিভিন্ন ব্লকে বিভক্ত করে। Component prop নামক ডেটা নিয়ে সেটিকে UI তে represent করে। Props এর মাধ্যমে components একে অপরের মধ্যে ডেটা স্থানান্তর করে complex type ui তৈরী করতে পারে। SPA(Single Page Application) তৈরী করতে React ব্যবহার করা হয়। মূলত জটিল কাজের কিন্তু সহজভাবে একটি website এর UI তৈরী করতে React দারুন ভূমিকা পালন করে।</p>
             </div>
             <div className='q-n-a-style'>
             <h3>Question-2: What is the differences between State & Props?</h3>

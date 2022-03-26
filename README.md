@@ -2,6 +2,6 @@
 
 ## Live Server Link
 
-Open [https://ammunition-online-shop.netlify.app/](https://ammunition-online-shop.netlify.app/) to view it in your browser.
+Open [https://ammunition-shop-online.netlify.app/](https://ammunition-shop-online.netlify.app/) to view it in your browser.
 
 
