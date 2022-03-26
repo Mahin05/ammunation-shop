@@ -43,8 +43,9 @@ const Shop = () => {
             </div>
             <div className="cart-container">
                 <div className='cart'>
-                <p>Choose 4 Products!!</p>
-                <h3>Chosen Products :</h3>
+                <p className='first-p'>Choose Four Weapons!!</p>
+                <h3>Chosen Weapons :</h3>
+                <div className='weapons'>
                 {
                     cart.map((item,id)=>(
                         <p key={id}
@@ -52,10 +53,11 @@ const Shop = () => {
                         </p>
                     ))
                 }
-                <button className='btn-style' onClick={clear}>clear all</button><br />
+                </div>
+                <button className='btn-style' onClick={clear}>Clear Choices</button><br />
                 <button className='btn-style2' onClick={choseOne}>Chose One</button><br />
                 {
-                    <p>Chosen Item Name: {chosen.name}</p>
+                    <p className='second-p'>Chosen one Weapon : {chosen.name}</p>
                 }
                 </div>
             </div>

@@ -9,11 +9,13 @@
     margin: 100px 50px;
 }
 .cart-container{
+    margin-top: 20px;
     background-color:rgba(127, 255, 212, 0.5);
     height: 500px;
     position: sticky;
     top: 0;
     border-radius: 20px;
+    margin-right: 5px;
 }
 
 .cart{
@@ -21,14 +23,42 @@
     top: 0;
     padding: 30px 20px;
 }
-.cart p{
+.first-p{
     font-weight:700;
     color:darkblue;
     font-size: 20px;
 }
+.second-p{
+    font-weight:700;
+    color:rgba(0, 0, 255, 0.986);
+    font-size: 18px;
+}
+.cart h3{
+    font-weight: 700;
+    color: brown;
+}
+.weapons{
+    color:brown;
+    font-weight: 500;
+    font-size: large;
+}
 .btn-style{
     border: none;
-    background-color: rgba(0, 0, 255, 0.171);
+    background-color:crimson;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.btn-style2{
+    border: none;
+    background-color:dodgerblue;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 @media screen and (max-width:414px){
     .products-container{
@@ -36,5 +66,14 @@
         grid-template-columns: repeat(1,1fr);
         gap: 45px;
         margin: 100px 50px;
+    }
+    .cart-container{
+        margin-top: 20px;
+        background-color:rgba(127, 255, 212, 0.5);
+        height: 600px;
+        position: sticky;
+        top: 0;
+        border-radius: 20px;
+        margin-right: 5px;
     }
 }
